@@ -1,0 +1,15 @@
+# Cache: la shell dell'app e il service worker devono essere sempre rivalidati,
+# così gli aggiornamenti arrivano subito. Gli asset hanno un hash nel nome e
+# possono restare in cache a lungo.
+
+/index.html
+  Cache-Control: no-cache
+
+/sw.js
+  Cache-Control: no-cache
+
+/manifest.webmanifest
+  Cache-Control: no-cache
+
+/assets/*
+  Cache-Control: public, max-age=31536000, immutable
