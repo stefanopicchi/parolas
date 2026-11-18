@@ -25,7 +25,7 @@ Tipi di esercizio: scelta multipla, traduzione scritta, completamento, riordino 
 - **Sezione Teoria** con tutti gli argomenti di grammatica e le teorie delle unità, ricerca testuale e collegamenti alle schede.
 - **Ripasso** degli esercizi sbagliati: la voce esce dalla coda quando la risposta è corretta.
 - **Vocabolario**: una parola alla volta, scelta dalle lezioni del corso attivo, con traduzione in italiano o nella lingua studiata. Dopo la verifica compaiono la soluzione e una scheda dizionario; le definizioni sono in spagnolo e italiano per il corso di spagnolo.
-- **Ascolto** tramite le voci del sistema (`speechSynthesis`): nessun file audio da scaricare. Gli esercizi di ascolto si possono saltare.
+- **Ascolto** tramite le voci del sistema (`speechSynthesis`): nessun file audio da scaricare. Gli esercizi di ascolto si possono saltare. Nella teoria un altoparlante accanto a parole, esempi e forme verbali permette di ascoltare la pronuncia.
 - **Tastiera speciale** per accenti e caratteri di spagnolo, francese e tedesco; gli accenti vengono controllati.
 - **Risposte mescolate** nelle domande a scelta multipla, così la risposta corretta non è sempre la A.
 - **Domande frequenti offline** per ogni lezione e argomento di grammatica.

@@ -121,7 +121,12 @@ export function CoursePage() {
                 </span>
               </summary>
               <div className="unit-theory-body">
-                <GrammarSections sections={unit.theory} idPrefix={unit.id} />
+                <GrammarSections
+                  sections={unit.theory}
+                  courseId={course.id}
+                  lang={course.ttsLang}
+                  idPrefix={unit.id}
+                />
               </div>
             </details>
           )}

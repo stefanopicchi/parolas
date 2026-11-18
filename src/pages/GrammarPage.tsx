@@ -120,7 +120,12 @@ export function GrammarPage() {
 
       <article className="card grammar-article">
         <p className="grammar-intro">{topic.intro}</p>
-        <GrammarSections sections={topic.sections} idPrefix={topic.id} />
+        <GrammarSections
+          sections={topic.sections}
+          courseId={course.id}
+          lang={course.ttsLang}
+          idPrefix={topic.id}
+        />
       </article>
 
       <section className="section">

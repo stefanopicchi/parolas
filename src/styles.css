@@ -1738,6 +1738,90 @@ table {
   color: var(--text);
 }
 
+.theory-listen-hint {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 14px 0 0;
+  color: var(--muted);
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+.theory-listen-hint svg {
+  flex: none;
+  width: 15px;
+  height: 15px;
+  color: var(--accent);
+}
+
+.cell-speak {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  margin: -2px 0;
+  padding: 2px 0;
+  border: 0;
+  border-radius: 6px;
+  background: none;
+  color: inherit;
+  font: inherit;
+  line-height: inherit;
+  text-align: left;
+  cursor: pointer;
+}
+
+.cell-speak span {
+  min-width: 0;
+}
+
+.cell-speak svg {
+  flex: none;
+  width: 15px;
+  height: 15px;
+  margin-left: auto;
+  color: var(--accent);
+  opacity: 0.5;
+}
+
+.cell-speak:hover svg,
+.cell-speak:focus-visible svg {
+  opacity: 1;
+}
+
+.cell-speak:focus-visible,
+.example-speak:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+.example-speak {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 26px;
+  height: 26px;
+  margin-left: 8px;
+  padding: 0;
+  border: 0;
+  border-radius: 999px;
+  background: var(--accent-soft);
+  color: var(--accent);
+  cursor: pointer;
+  vertical-align: middle;
+}
+
+.example-speak svg {
+  width: 15px;
+  height: 15px;
+}
+
+.example-speak:hover {
+  background: var(--accent);
+  color: #fff;
+}
+
 .bullets {
   display: grid;
   gap: 6px;
